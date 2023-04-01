@@ -40,4 +40,25 @@ function valid(event) {
         errorPass.innerHTML = "";
         passInput.style.borderBottom = "1px solid #fff";
     }
+    if (ifSendData) {
+        const body = JSON.stringify({
+            username: mailInputValue,
+            password: passInputValue,
+        })
+        const headers = {
+            "Content-Type": "application/json"
+        }
+        fetch('https://jsonplaceholder.typicode.com/posts', {
+            method: "POST",
+            body: body,
+            headers: headers
+        })
+            .then(response => {
+                if (response.ok) {
+                    errorData.innerText = "Your login was successful"
+                }
+            })
+    } else {
+        errorData.innerHTML = "Your login was not successful"
+    }
 }
