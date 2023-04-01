@@ -10,6 +10,6 @@ Input:
 
 ##Socail##
 input:
--`inst:bhrad2006`
--`tel:bhradhashemi`
--`github:Behrad07`
+- `inst:bhrad2006`
+- `tel:bhradhashemi`
+- `github:Behrad07`
