@@ -8,6 +8,6 @@ Input:
 - `CSS`
 - `JS`
 
-This site was built using [GitHub Pages](https://pages.github.com/Behrad07).
-This site was built using [GitHub Pages](https://pages.github.com/Behrad07).
-This site was built using [GitHub Pages](https://pages.github.com/Behrad07).
+This site was built using [Instagram](https://instagram.com/bhrad2006).
+This site was built using [Telegram](https://t.me/bhradhashemi).
+This site was built using [GitHub](https://pages.github.com/Behrad07).
