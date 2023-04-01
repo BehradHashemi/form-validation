@@ -9,7 +9,7 @@ Input:
 - `CSS`
 - `JS`
 
-#Socail#
+##Socail##
 inst:bhrad2006
 tel:bhradhashemi
 github:Behrad07
