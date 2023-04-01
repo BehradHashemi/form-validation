@@ -8,8 +8,6 @@ Input:
 - `CSS`
 - `JS`
 
-#Socail#
-input:
-- `inst:bhrad2006`
-- `tel:bhradhashemi`
-- `github:Behrad07`
+This site was built using [GitHub Pages](https://pages.github.com/Behrad07).
+This site was built using [GitHub Pages](https://pages.github.com/Behrad07).
+This site was built using [GitHub Pages](https://pages.github.com/Behrad07).
