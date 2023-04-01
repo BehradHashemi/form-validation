@@ -8,7 +8,7 @@ Input:
 - `CSS`
 - `JS`
 
-##Socail##
+#Socail#
 input:
 - `inst:bhrad2006`
 - `tel:bhradhashemi`
