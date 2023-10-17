@@ -1,3 +1,5 @@
+const showMsgBox = document.querySelector('.box')
+
 const mailInput = document.querySelector(".name-input")
 const errorMail = document.querySelector(".valid-name")
 
@@ -7,7 +9,7 @@ const errorPass = document.querySelector(".valid-pass")
 const errorData = document.querySelector(".valid-data")
 
 const btn = document.querySelector("#submit")
-
+btn.addEventListener('click', valid)
 function valid(event) {
     event.preventDefault();
     const mailInputValue = mailInput.value;
@@ -55,10 +57,24 @@ function valid(event) {
         })
             .then(response => {
                 if (response.ok) {
-                    errorData.innerText = "Your login was successful"
+                    setTimeout(() => {
+                        showMsgBox.innerHTML = 'Your login was successful'
+                        showMsgBox.style.background = 'green'
+                        showMsgBox.style.display = 'flex'
+                        setTimeout(() => {
+                            showMsgBox.style.display = 'none'
+                        }, 2000)
+                    }, 0)
                 }
             })
     } else {
-        errorData.innerHTML = "Your login was not successful"
+        setTimeout(() => {
+            showMsgBox.innerHTML = 'Your login was not successful'
+            showMsgBox.style.background = 'red'
+            showMsgBox.style.display = 'flex'
+            setTimeout(() => {
+                showMsgBox.style.display = 'none'
+            }, 2000)
+        }, 0)
     }
 }
